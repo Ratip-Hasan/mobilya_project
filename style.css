@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slide {
+    width: 100%;
+    height: 600px;
+}
+
+.contnier {
+    background: #e4e6e6;
+}
+
+.color {
+    background: #837e67;
+    border: #837e67;
+}
+
+.center {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.home_room {
+    z-index: 20;
+    padding: 15px;
+    width: 400px;
+    height: 200px;
+    background: hsl(48, 15%, 74%);
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid #837e67;
+
+}
+
+.salon_block00 {
+    display: flex;
+    justify-content: flex-end;
+
+    z-index: 20;
+
+
+}
+
+.salon {
+    width: 220px;
+    height: 250px;
+    margin: 5px;
+    border: 4px solid #837e67;
+
+}
+
+.logo {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.text1 {
+    text-align: center;
+}
+
+.my-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.lain {
+    border: 2px solid #837e67;
+    height: 900px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.con_image {
+    margin-left: 800px;
+    display: flex;
+}
+
+.text_image_1 {
+    margin-top: 100px;
+    position: absolute;
+    left: 700px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #837e67;
+    color: white;
+    box-shadow: #e4e6e6 -10.5px -10.5px 0px -1px,
+
+        #837e67 -10.5px -10.5px;
+
+}
+
+.con_image_2 {
+    margin-left: 200px;
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.text_image_2 {
+    margin-top: 100px;
+    position: absolute;
+    left: 600px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #837e67;
+    color: white;
+    box-shadow: #e4e6e6 10.5px -10.5px 0px -1px,
+
+        #837e67 10.5px -10.5px;
+
+}
+.sosyal{
+    text-align: center;
+    margin: 30px;
+    
+}
+.bi{
+    color:black;
+    margin: 10px;
+    
+}
+.con_image img,
+.image3,
+.text_image_1,
+.text_image_2 {
+    width: 300px;
+    height: 300px;
+    border: 4px solid #837e67;
+}
+
+.image000 {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    box-shadow: 5px 0px 20px rgb(94, 88, 88),
+        -5px 0px 10px rgb(94, 88, 88);
+    border: 4px solid #837e67;
+    border-radius: 15% 30%;
+}
+
+footer{
+    margin-top: -20px;
+    text-align: center;
+    background: rgb(192, 188, 188);
+    height: 250px;
+    color: white;
+
+}
+.footer_div{
+    padding-top: 30px;
+    line-height: 30px;
+}
